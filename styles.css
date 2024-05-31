@@ -1,0 +1,83 @@
+body {
+  font-family:'Courier New', Courier, monospace, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.video-background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+
+  #video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Use viewport width */
+    height: 100vh; /* Use viewport height */
+    object-fit: cover;
+  }
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px; /* Adjust margin as needed */
+  width: 150px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: center; /* Center the input fields */
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  font-family: 'Courier New', Courier, monospace;
+  width: calc(100% - 22px); /* Adjust the width as needed */
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
